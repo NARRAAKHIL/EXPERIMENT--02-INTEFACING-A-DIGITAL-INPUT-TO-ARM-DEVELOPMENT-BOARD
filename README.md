@@ -51,13 +51,53 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 
 ## STM 32 CUBE PROGRAM :
+```
+// NARRA AKHIL
+// 212223230136
+#include "main.h"
+#include <stdbool.h>
+void push_button();
+bool button_status;
+int main(void)
+ 
+  {
+   HAL-Init();
+   System clock-config();
+   MX_GPIO-Init();
+   while(1){
+	  push_button();
+   }
+  }
+  
 
+void push_button(){
+	button_status=HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_13);
+	if(button_status==1)
+	{
+		HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_SET);
+		HAL_Delay(500);
+		HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);
+		HAL_Delay(500);
+	}
+	else
+	{
+		HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);
+		
+	}
+}
+```
 
+## layout of the circuit :
+<img width="1238" height="849" alt="image" src="https://github.com/user-attachments/assets/5bec3c8b-95a9-4d2a-95e8-4c51d6e1881c" />
 
 ## Output  :
- 
-## layout of the circuit 
- 
+## LED ON
+<img width="1184" height="830" alt="Screenshot 2025-09-11 143024" src="https://github.com/user-attachments/assets/e490964d-2b91-4f6c-b80c-635592e65464" />
+
+<img width="1182" height="829" alt="Screenshot 2025-09-11 143036" src="https://github.com/user-attachments/assets/24012511-503f-4f29-b4b7-663ea1d9eba2" />
+
+## LED OFF
+<img width="1182" height="829" alt="Screenshot 2025-09-11 143036" src="https://github.com/user-attachments/assets/24012511-503f-4f29-b4b7-663ea1d9eba2" />
  
 ## Result :
 Interfacing a digital Input (Pushbutton ) with ARM microcontroller based IOT development is executed and the results are verified.
