@@ -94,7 +94,6 @@ void push_button(){
 ## LED ON
 <img width="1184" height="830" alt="Screenshot 2025-09-11 143024" src="https://github.com/user-attachments/assets/e490964d-2b91-4f6c-b80c-635592e65464" />
 
-<img width="1182" height="829" alt="Screenshot 2025-09-11 143036" src="https://github.com/user-attachments/assets/24012511-503f-4f29-b4b7-663ea1d9eba2" />
 
 ## LED OFF
 <img width="1182" height="829" alt="Screenshot 2025-09-11 143036" src="https://github.com/user-attachments/assets/24012511-503f-4f29-b4b7-663ea1d9eba2" />
