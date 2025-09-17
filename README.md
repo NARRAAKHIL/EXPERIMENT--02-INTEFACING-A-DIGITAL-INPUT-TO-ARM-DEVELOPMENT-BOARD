@@ -1,5 +1,8 @@
 # EXPERIMENT--02-INTEFACING-A-DIGITAL-INPUT-TO-ARM-DEVELOPMENT-BOARD
-## Aim: To Interface a Digital Input  (userpush button  ) to ARM   development board and write a  program to obtain  the data and flash the led  
+#### Name : NARRA AKHIL
+#### Register Number : 212223230136
+## Aim: 
+To Interface a Digital Input  (userpush button  ) to ARM   development board and write a  program to obtain  the data and flash the led  
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool.
 ## Theory 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
@@ -8,7 +11,8 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
   
 ## Procedure:
  1. click on STM 32 CUBE IDE, the following screen will appear 
- ![image](https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png)
+ ![Uploading Screenshot 2025-09-12 151450.png…]()
+
 
  2. click on FILE, click on new stm 32 project 
  ![image](https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png)
@@ -51,7 +55,8 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 
 ## STM 32 CUBE PROGRAM :
-~~~
+
+```
 #include "main.h"
 #include "stdbool.h"
 
@@ -141,13 +146,16 @@ void Error_Handler(void)
   {
   }
 }
-~~~
+```
 
 ## Output  :
 ![PMC EXP 2](https://github.com/user-attachments/assets/1d66acc7-384b-42dc-a7cc-cbd029b3879f)
 
 ![PMC EXP 2](https://github.com/user-attachments/assets/6ac18319-7546-4290-94b6-daf96ebd13e0)
 
+## layout of the circuit 
+
+ <img width="1110" height="686" alt="image" src="https://github.com/user-attachments/assets/1f6c7620-ae8f-4b49-a4cb-ea8823830121" />
 
 ## Result :
 Interfacing a digital Input (Pushbutton ) with ARM microcontroller based IOT development is executed and the results are verified.
